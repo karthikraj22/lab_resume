@@ -1,0 +1,54 @@
+table {
+    border-collapse:inherit;
+    margin-bottom: 10px;
+}
+
+table th {
+    background-color: burlywood;
+    color: white;
+    padding: 5px;
+}
+
+table td {
+    background-color:cornsilk;
+    color: black;
+    padding: 5px;
+}
+
+body {
+    background-color:whitesmoke;
+}
+h1{
+    text-align: center;
+    color:blueviolet;
+}
+
+h2 {
+    color:royalblue;
+}
+h3{
+    text-align:left;
+}
+h4 {
+    color: indigo;
+}
+#table-align {
+    display: flex;
+    justify-content: center;
+}
+#info{
+  text-align: right;
+}
+img{
+    width: 10%;
+    height: 20%;
+    position:absolute;
+    top: 9%;
+    right  :58%;
+}
+@media screen and (max-width:768px) {
+    img{
+        left: auto;
+        right: 1%;
+    }
+}
